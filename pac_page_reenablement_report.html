@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAC Page Re-enablement Analysis</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 30px; background: #f5f7fa; color: #333; }
+        .header { background: linear-gradient(135deg, #0066cc, #004a99); color: white; padding: 30px; border-radius: 8px; margin-bottom: 30px; }
+        h1 { margin: 0; font-size: 28px; }
+        .subheader { font-size: 14px; opacity: 0.9; margin-top: 10px; }
+        .section { background: white; padding: 25px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .section h2 { color: #0066cc; border-bottom: 2px solid #e0e6ed; padding-bottom: 12px; margin-top: 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f0f4f8; color: #0066cc; padding: 12px; text-align: left; font-weight: 600; border-bottom: 2px solid #0066cc; }
+        td { padding: 12px; border-bottom: 1px solid #e0e6ed; }
+        tr:hover { background: #fafbfc; }
+        .metric { font-weight: 500; color: #333; }
+        .positive { color: #28a745; font-weight: 600; }
+        .negative { color: #dc3545; font-weight: 600; }
+        .metric-box { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 20px; }
+        .kpi { background: #f8f9fa; padding: 15px; border-left: 4px solid #0066cc; border-radius: 4px; }
+        .kpi-label { font-size: 12px; color: #666; text-transform: uppercase; margin-bottom: 8px; }
+        .kpi-value { font-size: 24px; font-weight: 700; color: #0066cc; }
+        .kpi-change { font-size: 12px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PAC Page Re-enablement for Auto Tires</h1>
+        <p class="subheader">Pre/Post Launch Analysis Report</p>
+        <p class="subheader">📊 Period: Pre (6/01-6/10) vs Post (6/10-6/18) Launch</p>
+        <p class="subheader">Anchor Item L2 = "AUTOMOTIVE TIRES"</p>
+    </div>
+    
+    <div class="section">
+        <h2>📈 PAC Page - Launch Performance</h2>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Pre-Launch</th>
+                <th>Post-Launch</th>
+                <th>Change</th>
+                <th>% Change</th>
+            </tr>
+            <tr>
+                <td class="metric">Module Impressions</td>
+                <td>102,267</td>
+                <td>115,540</td>
+                <td class="positive">+13,273</td>
+                <td class="positive">+12.98%</td>
+            </tr>
+            <tr>
+                <td class="metric">Item Clicks</td>
+                <td>941</td>
+                <td>1,046</td>
+                <td class="positive">+105</td>
+                <td class="positive">+11.16%</td>
+            </tr>
+            <tr>
+                <td class="metric">CTR</td>
+                <td>0.0092%</td>
+                <td>0.0091%</td>
+                <td class="negative">-0.0001</td>
+                <td class="negative">-1.09%</td>
+            </tr>
+            <tr>
+                <td class="metric">Direct ATC</td>
+                <td>146</td>
+                <td>164</td>
+                <td class="positive">+18</td>
+                <td class="positive">+12.33%</td>
+            </tr>
+            <tr>
+                <td class="metric">Direct ATCR</td>
+                <td>0.0014%</td>
+                <td>0.0014%</td>
+                <td class="">+0.0000</td>
+                <td class="">+0.00%</td>
+            </tr>
+            <tr>
+                <td class="metric">P13N Attributable GMV 7 Day</td>
+                <td>$3,224.58</td>
+                <td>$4,048.84</td>
+                <td class="positive">$+824.26</td>
+                <td class="positive">+25.56%</td>
+            </tr>
+            <tr>
+                <td class="metric">GMV per 1000 Impressions</td>
+                <td>$31.53</td>
+                <td>$35.04</td>
+                <td class="positive">$+3.51</td>
+                <td class="positive">+11.14%</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>📊 Overall Platform Performance</h2>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Pre-Launch</th>
+                <th>Post-Launch</th>
+                <th>Change</th>
+                <th>% Change</th>
+            </tr>
+            <tr>
+                <td class="metric">Total Module Impressions</td>
+                <td>4,196,872</td>
+                <td>4,732,498</td>
+                <td class="positive">+535,626</td>
+                <td class="positive">+12.76%</td>
+            </tr>
+            <tr>
+                <td class="metric">Total Item Clicks</td>
+                <td>100,222</td>
+                <td>112,863</td>
+                <td class="positive">+12,641</td>
+                <td class="positive">+12.61%</td>
+            </tr>
+            <tr>
+                <td class="metric">Total P13N Attributable GMV</td>
+                <td>$652,077.49</td>
+                <td>$736,589.87</td>
+                <td class="positive">$+84,512.38</td>
+                <td class="positive">+12.96%</td>
+            </tr>
+            <tr>
+                <td class="metric">Overall CTR (%)</td>
+                <td>2.3880%</td>
+                <td>2.3849%</td>
+                <td class="positive">-0.0032pp</td>
+                <td class="positive">-0.13%</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>✅ Key Insights</h2>
+        <ul>
+            <li><strong>PAC Page Traffic:</strong> Module impressions increased by 13.0%</li>
+            <li><strong>Click Performance:</strong> Item clicks grew by 11.2%</li>
+            <li><strong>Revenue Impact:</strong> P13N Attributable GMV increased by $824.26</li>
+            <li><strong>Platform Effect:</strong> Overall impressions up 12.8%</li>
+        </ul>
+    </div>
+</body>
+</html>
